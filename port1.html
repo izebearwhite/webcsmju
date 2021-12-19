@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/c0.62.750.750a/s851x315/225009518_364252295316983_1464941912552647346_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeExzYYRQ-R3Kjr-GMW7jDhDipt46yeasOKKm3jrJ5qw4nNGkvHpq2S1N2l6MKdIrQ6r4C4RYuhJvqVeD8GMShKB&_nc_ohc=brpIq2jV81oAX-vq147&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_jvSYRzaZYuL_g1OHkKtIU-LYJp8wXuz_VAjsKNfms4g&oe=61C33CEC" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'M</span> IZE BEAR.</h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/c0.62.750.750a/s851x315/225009518_364252295316983_1464941912552647346_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeExzYYRQ-R3Kjr-GMW7jDhDipt46yeasOKKm3jrJ5qw4nNGkvHpq2S1N2l6MKdIrQ6r4C4RYuhJvqVeD8GMShKB&_nc_ohc=brpIq2jV81oAX-vq147&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_jvSYRzaZYuL_g1OHkKtIU-LYJp8wXuz_VAjsKNfms4g&oe=61C33CEC" alt="girl" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>My name is Ms. Pornchita Khaikaew. I am 21 years old. I graduated from Maejo University. Computer Science
+I believe I can lead this team to even more success, but I can not produce great results alone. That is why I need your utmost cooperation. Together, we can achieve great things.
+I m looking forward to working with you in the future. See you around.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    
+   </div>
+    
+
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/s851x315/146206534_250695370006010_6116234399634609231_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeEWV_mW3CkmChn7cOm_J3GT-wiBaOI_tWH7CIFo4j-1YaMrkBCDVpXCxhg65ooHXHtlgtlAx5DeIu8_-mukzbxK&_nc_ohc=skStVZcJy00AX9aPEND&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT8tVQJUCBUpMX_SuMzNJ4eUdnjbhmPB8DiMg3bhON18wA&oe=61E3B4B5" style="width:100%">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/s851x315/147914838_251296049945942_2116802073058095119_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeFK6pijTRZIZQVZM2tF0ktk34-D2e00Q53fj4PZ7TRDnZO9P5aMQCPz3i8wkhP9cX5h9NvUv4FowqRrTO9cGI2b&_nc_ohc=mHsI0Wx7-cwAX8N78m3&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT9cavOdK4x5fjawFtuS_O1zzHS8fyRkYhS5FC4DS_JFbg&oe=61E46750" style="width:100%">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/s851x315/221249228_360303572378522_572055610228642329_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeGuKM6owJ0baOnkya3L2BQABVg0Xi-tHcIFWDReL60dwu7XXPART2g61T0aaI3ZUM4397MIhMbORLZ2plG18FE2&_nc_ohc=IQtbdlfwgYYAX8J1_WD&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-LXCcc-y1cTu-0votA6BJxTOd-KZAdhPsj800x7jsjzA&oe=61C2BA69" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/s851x315/186998878_359083192500560_9056138649717651745_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeF99vniv8ttSneQlQimngaIivotEhEflQKK-i0SER-VAq5fZ3aYO-M_OMnyEG2C0-mPxOmx7jOBMllZKxsLrTrO&_nc_ohc=oO7BOqMBZB0AX_tqa1p&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT__MiTe-Vewope4S_FfKS6WbQ2wHBkV2kKmC6n4Le3VLg&oe=61C37C12" style="width:100%">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/s851x315/259466455_445227970552748_3131355747476897553_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeE7fK9O7J3_pimReefw_b4CPwFi5GRbKjw_AWLkZFsqPJExs-0NtFTtp-1b7Qrc49U-VV5RjaMN4TBvXkX4jNUP&_nc_ohc=kDUjzXv2hKcAX937iG4&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_ZhWjRrRc-W_8_cWckP8KtdNBGJjEYF5NnqzWXygI98g&oe=61C21511" style="width:100%">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/c0.106.960.960a/s851x315/232249746_373005847774961_4080201106101342189_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeFUmh_0pKj4Iju0_7ZVx6gydTwgTHPOO_N1PCBMc84789-0wTFEz4nsl5L1Jt1geW9WtJe_AQurrCupc9EX5BZn&_nc_ohc=NI3SiDbENesAX_pwk8d&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-9nDeusOZpjl4TEE99lv8ucFadYgcXzUKwpy2qZCwMwA&oe=61C3A98D" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> CNX,TH</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0930388668</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: izebearwhite@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
