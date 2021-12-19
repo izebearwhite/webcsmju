@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/262766408_5002090646476231_4281186873062377634_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGIEVAsVoZPaP7fd9eZupgXjfcB0yHuQ3SN9wHTIe5DdEjt53U9jfiJpKU1PSK6Ztt_t2G4hXmvRNfJgc1FCMNa&_nc_ohc=bt-FiwrcsFYAX_qOFRL&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT84_5M1HlExWT6JmVPT0mnfZ_obVREnd1qmrPvXQr9f2w&oe=61C20934");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">CS|MJU</a>
+
+    <a href="#LOG IN" class="w3-bar-item w3-button w3-wide">LOG IN</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#Computer Science" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Computer Science</a>
+      <a href="#Information SystemsK" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Information SystemsK</a>
+      <a href="#E-Learning" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> E-Learning</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#Computer Science" onclick="w3_close()" class="w3-bar-item w3-button">Computer Science</a>
+  <a href="#Information SystemsK" onclick="w3_close()" class="w3-bar-item w3-button">Information SystemsK</a>
+  <a href="#E-Learning" onclick="w3_close()" class="w3-bar-item w3-button">E-Learning</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+
+
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Introduction to disciplines</h3>
+  <p class="w3-center w3-large">สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ หลักสูตร 4 ปี</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245643659_235120718636293_6894501905359979760_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEIn7E7gkiw9CpiCZxKe-eA8C0eKUz1VunwLR4pTPVW6bImfws82c6k2foLvXXCXccV2ggghFKbCG2T63gNIqWv&_nc_ohc=vMU7Yrk21v8AX8HREfq&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_y3I_ItGJQ7GtufzEBKNyJLh7VSyB0dhSZ_btbTiXQ3w&oe=61C29EB7" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="หลักสูตร">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245801270_235120741969624_1716655835382474300_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHAsxR4VeJoZ6zeRf_GE_ZwH_l3uu23UjEf-Xe67bdSMXCYX47lwrdFLm_iaX91ESYOcdYtlD-K93jKzl3svDEz&_nc_ohc=zKZYvEUktGsAX-n94GP&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT9VOrzAAFLvil6ysxUjVLWbtN0MEpn787dLJlooYQWXUw&oe=61C3F9DC" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="1.พื้นฐานการเขียนโปรแกรม">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245823335_235120748636290_4880105158175703107_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeG3tWui2Qj3STWi97Olw_WdtBvw-h9FEvO0G_D6H0US81rj8JYxvapOTpAefh7fOG5m0KUWN09O6tYXV3RhRTkd&_nc_ohc=-yFPVwTqVlkAX_7OB69&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-elSomiJBQF8k3TgsP7Z8irYrdzQLzZDbEQmSHNuCJ8w&oe=61C32432" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="2.การวิเคราห์และออกแบบซอฟต์แวร์">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245684900_235120751969623_5126434746826132546_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFYoTAn3w_wkSQyj6A_jkq7GoT_ab8fNEcahP9pvx80R8LvWd1yrJIGCNZSwzuCaRz8IEJb2AMKusNVtmLZ_VLh&_nc_ohc=enRQfSe16vEAX_okRU7&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-e65S9z13_C4CKoT9Eo3Nf9z5r6pRSeyDt82IUQZgieQ&oe=61C39C72" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="3.การพัฒนาแอปข้ามแพลตฟอร์ม">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245786503_235120835302948_123756825717109407_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGetrtGYSEAJzvGX-Awru6_gLZpg2seXlWAtmmDax5eVTJR4QeKOlhSO7h_SgXsLHbDfrq0fYnc-027DAXg2PSp&_nc_ohc=q_C_VcwExboAX8qxkg4&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_9V1NekvT9vU9P4yiIYsJEd00zWMSRuJix4syx27s1Lg&oe=61C30892" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="4.ระบบเครือข่าย">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245660317_235120845302947_7885308318035765477_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE6p3qIKwt1ROin3wtQ8U21Ej3Q7WHIiyUSPdDtYciLJd9Ro5JOA2ww8Rhlz7lLqbNj1nSAzCJLoaU4XAmJvMrg&_nc_ohc=A3jNO7WTZxMAX_5U5Tz&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_uoB-9Vlze-zQ1V7RN3NJi6wD-ILK6b4URk-6nM_Qtxw&oe=61C3C7F5" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="5.วิทยาการข้อมูล">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245640217_235120871969611_4101203269385437482_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEtfQnKa7WFzwmsaoIgMstGoikEzZdQ1GOiKQTNl1DUYyGoIBdszDLJ2U0e9jvHOm86j5L_djKB-44XXiNFjs7i&_nc_ohc=PMBZ4hLdS1cAX8Lo4SL&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_qL8qe8fsDnR1gN_gcc-n-e8_aDfCEAlAELHnrbROhrQ&oe=61C307DF" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="6.ระบบฝังตัว">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245710015_235120931969605_5486107789995229783_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGebz7WkqHexB3k26jeyypJJMinLd0xRMokyKct3TFEyu3-mo4ZNhYMOOIhUaZXKg3MhqqsXeTaZ-AgLeWhqYIZ&_nc_ohc=PzZ5bx8YaoYAX90hzkE&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-q2h34WX_FvQHxQh6JpHJk19E0vmFKQP17f1v2k4712g&oe=61C40038" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="7.ปัญญาประดิษฐ์">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245669410_235120955302936_8623631576499499780_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE-4QFtdpEEoqDdDHQXPikT8aqHzn4empzxqofOfh6anG_ceuOXTXe6n-DGpv4MnDAtrfCNcmw185fgJJbshP4T&_nc_ohc=O4Zt_FloRQwAX8P8GEv&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT96gtPDmR92zUOguUCqPAnok98xhuqNSmsq6MPd416bug&oe=61C258E2" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="8.การประยุกต์ใช้เชิงธุรกิจ">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know " -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know.</h3>
+      <p>The university's educational philosophy is “providing education to enhance wisdom in a form of practice-based learning that is integrated with working according to the Amata teachings. Hard work never kills people. aims to provide learners with lifelong learning skills Able to develop old skills and build new skills There is a way of thinking about being an entrepreneur. Digital technology and communication are used. 
+        have social awareness culture and environment uphold the relationship between the university and the community According to Maejo University's position that "University of Life" (the meeting of Maejo University Council approved in the meeting No. 7/2020 dated September 8, 2020, according to the details of the book No. Wor 68.1.1.2/Wor142 dated September 11, 2020), the curriculum's educational philosophy is “to produce graduates with morality, ethics, leadership and Create a society with academic expertise in computer science and information technology.”<br>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/246519062_4856879654330665_609641348473855325_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH9B7nt1cYkM7hk5UMz2LjzdHoLhMz_xH50eguEzP_EfmHHqDw3dMNIpkXgoberKvztqUffqxpf342tU07347WD&_nc_ohc=NiwqiHSaa9sAX-ufUlM&_nc_oc=AQk_rozVTrnIVE5EbnFfY1KecwnZfyV5p-NyBCDjhqnvqChpd5qfvGq8WJ0Mj92jTWg&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT8TVM2HwBSz9x6EvmV4emQdEFksjvuOuJFqA65YYyuvJw&oe=61C2285D" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Computer Science -->
+<div class="w3-container" style="padding:128px 16px" id="Computer Science">
+  <h3 class="w3-center">Computer Science</h3>
+  <p class="w3-center w3-large">Let's get to know the branch of computer science.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/106989592_3480299788655332_5353066453315020995_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=cdbe9c&_nc_eui2=AeFYJH40lqLRwcnWFrrnA0bL91gHjDTBsjD3WAeMNMGyMHLVgF9voZVnPH2FgeyRdkxlhjCZ-6TWeRvbidgKvtpC&_nc_ohc=QLVWtl7g42oAX-EFzwu&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT9-ZJUureGeSg_W4zjJ71E3CnaFOhTMdmLQqjapmx_p4A&oe=61E506F5" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>ห้องบรรยายคอมพิวเตอร์ 8</h3>
+          <p class="w3-opacity">จำนวนที่นั่ง 90 หมายเลขห้อง 2608</p>
+          <p>สถานที่ ชั้น 6  ตึก 60 ปี แม่โจ้ คณะวิทยาศาสตร์</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/162839259_4221108217907815_2348671683468552784_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEKd7jADTOBpK6VScqABMRoMHuBVFreUP4we4FUWt5Q_jtPKgtJcoO8Yx29OCocfkOfaZnE11wSLa2UW_ugbep_&_nc_ohc=DxDDTT8fVyQAX_pEcxT&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-_BGHrGxV8HUciLkMZlX01q_7IwMCcme-J7rSP3s76Lw&oe=61E491E0" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>ห้องปฏิบัติการคอมพิวเตอร์3</h3>
+          <p class="w3-opacity">จำนวนที่นั่ง 58 หมายเลขห้อง 2609</p>
+          <p>สถานที่ ชั้น 6  ตึก 60 ปี แม่โจ้ คณะวิทยาศาสตร์ร์</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/158513180_4181611798524124_8490959911093412200_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEndwRexvyUFMe569um7GaENwU00UBHDZE3BTTRQEcNkdoM7sIW6bzlae_OgRH2Irusnse44pMKx067BNxG4xFx&_nc_ohc=RPDeO-CQDG8AX_EZaTJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT9VEZOdHK7dpXc0epJ3GAzHqjb0Y3NahwMYoAj1cvZr3A&oe=61E45D59" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>ห้องประชุม</h3>
+          <<p>สถานที่ ชั้น 6  ตึก 60 ปี แม่โจ้ คณะวิทยาศาสตร์ร์</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/107729247_3480300038655307_6165752974061003522_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=cdbe9c&_nc_eui2=AeHq_edOZTly0o6Q9sqEn2hDPYrjKHNkoQE9iuMoc2ShAc0d-Wut0IAvTIkmUXr4W8lP_EE2W52M4ADcXToy8dab&_nc_ohc=-H9gGw3nW-YAX9tExWK&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-jyxmPSPjzjPtBeY680Yz1_1jFJ9g-eXURm_djvDtK5w&oe=61E3ECC3" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>ห้องบรรยายคอมพิวเตอร์</h3>
+           <<p>สถานที่ ชั้น 6  ตึก 60 ปี แม่โจ้ คณะวิทยาศาสตร์ร์</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Information Systems-->
+<div class="w3-container" style="padding:128px 16px" id="Information SystemsK">
+  <h3 class="w3-center">Information SystemsK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/p720x720/267701543_273103211504710_3285345680404598052_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH2sgJL6e-HViHzjt_vHJ1q-kEQNEtZc_36QRA0S1lz_YByvzvdTtvq_I1kAYsuMU76dlrjF5Sgac91StSueWw9&_nc_ohc=Pu10VQnMd3QAX-oFNTP&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_5RDUjXD6wMODlVvmp-ROrrFkMYN5CDTkvfQ0UuDXMtA&oe=61C23108" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="รับสมัครนักศึกษาใหม่">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/p640x640/267632946_273085371506494_3460151143652915713_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeERAJRdl38iEiUhhMtH8YKH3Ki-CwV75hbcqL4LBXvmFg_twQoB9aS0JXLcV-OxWrYyGw-0SQcJX44MAZTSpGWY&_nc_ohc=U6xCm3IwvlkAX-s2RYb&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT8RCxuliaz-CYHZUZJM9SckGeErI8hx7bbnsIYKb_NJOQ&oe=61C3B0F1" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ขั้นตอนการสมัคร">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/267744967_273085404839824_6537656461728724989_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE6Gi8gc6lpT5rqhsgxF5yrrUsffx0ZJSatSx9_HRklJotAt_D5n9I11-ImYkDmtFT1KapnX8PRlXbrQSCBgIOj&_nc_ohc=VEtpdpAtiyIAX9UKOZQ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_bYFD2HNGqe-q2jZ0ssOAx9Cuj1S12gbY60ld-J5A2KQ&oe=61C42991" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ช่องทางการชำระเงิน">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/267653242_273085311506500_3048975089648296593_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFYAEwj_omMtdXbqj4I8U_oRBnmTsHK-lFEGeZOwcr6USHjAgAwSKba8akjEYxbWDLbXQyogWhQC3v5YfU1_KJv&_nc_ohc=tVDq3lObcZMAX9kWQLZ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_4MOlk2sf_ixrUG1ihX29pabQfw5j2HxH2SB3V5-QP_w&oe=61C26E32" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ตัวอย่างการเซนต์เอกสาร">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/s960x960/267342752_272403201574711_2732209362657848287_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFQGD8zHSKufDtx9rhqPbOPeDcxYrR7wjR4NzFitHvCNNztZ3cdeLQoX5uScifF0DSf25QjNOLie_PU6RhwW_W1&_nc_ohc=FpsDA4iOUUYAX8G2bKk&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT_H0B5aoJaM1MeFJBDLBSyvSo1tCK3fteSvLlwTvsC4Sw&oe=61C309AB" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="top new">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/267946757_4697932213599976_6439883272734541514_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeHh5SrjS3kgmUG0ZBUjmqhyTJcZ7YLFd7tMlxntgsV3u-WBi00xGm80yL4UJI7evCJh7pp9OZnH5HL0_l49RLaW&_nc_ohc=YMxDsDRXAH0AX9L7b7m&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT8R4ZbtLGx31C1dHBia5mrEouA3_tzSrQMibbaSU1uxpA&oe=61C37BA4" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="open word">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/245237054_4834150716603559_7809849313394016021_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGfVkqAHI4EXGw4KigG3qHzbfpbqBseyWtt-luoGx7JazbFUO6vwxVNRjivwvkp7_MpCDGSd58-yjvf6UpCMbIN&_nc_ohc=jEpB9OWtrjYAX8nS8pc&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT-3hqjy9ReT0V0jldZWNkwwvQTVLlw3VD0Dv3fXdRAmqg&oe=61C2E318" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ทั่วไป">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t39.30808-6/231853617_4640653922619907_7150976412829251069_n.png?_nc_cat=107&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeE2m3bV-nizCF4auno3kAB5cpfStD4am9lyl9K0Phqb2WBV84U0M2hXzbc62dYYcry2WSeOpL4oWkreIuVMAEgG&_nc_ohc=rMfJyZsWG08AX98HtmA&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT9WXA5VtgqhqlKsOSb5R6it59aEEUPzCHRNfY_fYQvkiw&oe=61C2F433" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ไทม์ไลน์">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!--Other services-->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Other services.</h3>
+      <p>Notification of announcements</p>
+      
+    </div>
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://scontent.fcnx1-1.fna.fbcdn.net/v/t1.6435-9/86716741_3118993034786011_6945629688693784576_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFBgORxvcd7G_kJwpuW993aj6iYkGUIPiiPqJiQZQg-KPkOU9lLvL_sZvDFfAbQap41QSbAF6AkRa9D5G9YLtc1&_nc_ohc=1WGYoJj_nawAX-MXNSN&tn=DW2_Nn28kMJS--EJ&_nc_ht=scontent.fcnx1-1.fna&oh=00_AT8JoWreCSWOkFS9Q53wfsKKZ-04rL8JOWYT0qhOxn3RIw&oe=61E26379" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="รับสมัครนักศึกษา">
+    </div>
+  </div>
+</div>
+
+<!-- E-Learning -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="E-Learning">
+  <h3>E-Learning</h3>
+  <p class="w3-large">Lesson.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">E-Learning 55-56</li>
+        <button <li class="w3-padding-16"></b> Lesson.1</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.2</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.3</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.4</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.5</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.6</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.7</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.8</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.9</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.10</li></button>
+
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+  
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+      <li class="w3-black w3-xlarge w3-padding-32">E-Learning 57-63</li>
+        <button <li class="w3-padding-16"></b> Lesson.1</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.2</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.3</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.4</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.5</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.6</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.7</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.8</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.9</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.10</li></button>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+    
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">E-Learning 64</li>
+        <button <li class="w3-padding-16"></b> Lesson.1</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.2</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.3</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.4</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.5</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.6</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.7</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.8</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.9</li></button>
+        <button <li class="w3-padding-16"></b> Lesson.10</li></button>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+    
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> MJU,CNX,TH</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +665387390-3</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Fax: +6653873898</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="https://www.google.com/maps/vt/data=5Vb8e51tLCEj6ZYo1JC8h0CZLgMif5gmmnkG7g-5mKYP42eRyhAtPtR-qCksPVkDmED1KCurgmf_uQ2HdnZFOZfMgHa9YsiDQheHv37T3RkJIDJOjhqCjqfuh4Guj4bIEwv6p1LBb52OJDIYQ-DmALyujCqFpY_3kzTgNxEASD61LTHFQEbR0MHL" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
